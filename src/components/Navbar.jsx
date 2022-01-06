@@ -2,9 +2,16 @@ import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <div className='navbar shadow-lg bg-gray-900 text-white px-5'>
+    <div className='navbar shadow-lg text-white px-5'>
       <div className='flex-none px-2 mx-2'>
-        <span className='text-lg font-bold'>kgcthu</span>
+        <a
+          href='https://www.instagram.com/kgcthu/'
+          className='text-lg font-bold'
+          target='_blank'
+          rel='noreferrer'
+        >
+          kgcthu
+        </a>
       </div>
       <div className='flex-1 px-2 mx-2 navbar-end'>
         <div className='items-stretch flex'>
