@@ -1,25 +1,37 @@
-import { Link } from 'react-router-dom'
+import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <div className='navbar shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 text-neutral-content'>
+    <div className='navbar shadow-lg bg-gray-900 text-white px-5'>
       <div className='flex-none px-2 mx-2'>
-        <span className='text-lg font-bold'>KST</span>
+        <span className='text-lg font-bold'>kgcthu</span>
       </div>
       <div className='flex-1 px-2 mx-2 navbar-end'>
-        <div className='items-stretch hidden lg:flex'>
-          <Link className='btn btn-ghost btn-sm rounded-btn ' to='/'>
-            Home
-          </Link>
-          <Link className='btn btn-ghost btn-sm rounded-btn' to='/'>
-            Portfolio
-          </Link>
-          <Link className='btn btn-ghost btn-sm rounded-btn' to='/'>
-            About
-          </Link>
-          <Link className='btn btn-ghost btn-sm rounded-btn' to='/'>
-            Contact
-          </Link>
+        <div className='items-stretch flex'>
+          <a
+            href='https://github.com/kgcthu-kev/'
+            target='_blank'
+            rel='noreferrer'
+            className='btn btn-ghost btn-md rounded-btn'
+          >
+            <FaGithub className='h-6 w-6' />
+          </a>
+          <a
+            href='https://twitter.com/kgcthu'
+            target='_blank'
+            rel='noreferrer'
+            className='btn btn-ghost btn-md rounded-btn'
+          >
+            <FaTwitter className='h-6 w-6' />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/kaung-si-thu-518759224/'
+            target='_blank'
+            rel='noreferrer'
+            className='btn btn-ghost btn-md rounded-btn'
+          >
+            <FaLinkedinIn className='h-6 w-6' />
+          </a>
         </div>
       </div>
     </div>

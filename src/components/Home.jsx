@@ -1,27 +1,23 @@
+import Intro from './Intro'
+import Navbar from './Navbar'
+import Projects from './Projects'
+import Skills from './Skills'
+
 function Home() {
   return (
-    <div>
-      <div
-        className='hero min-h-screen'
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1640768239132-4a0c74249b61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')",
-        }}
-      >
-        <div className='hero-overlay bg-opacity-60'></div>
-        <div className='text-center hero-content text-neutral-content'>
-          <div className='max-w-md'>
-            <h1 className='mb-5 text-5xl font-bold'>Hello there</h1>
-            <p className='mb-5'>
-              I am Kaung Si Thu. I'm a self-taught frontend developer based in
-              Yangon, Myanmar. My goal is to create engaging experiences for
-              users, with a fine balance of technology and design
-            </p>
-            <button className='btn btn-neutral mr-4'>Contact Me</button>
-            <button className='btn btn-primary'>Resume</button>
-          </div>
-        </div>
-      </div>
+    <div
+      style={{
+        backgroundColor: '#111827',
+        backgroundImage:
+          "url('data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23929bac' fill-opacity='0.32' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E')",
+      }}
+    >
+      <Navbar />
+      <Intro />
+      <div className='h-0.5 w-full bg-cyan-900 '></div>
+      <Skills />
+      <div className='h-0.5 w-full bg-cyan-900'></div>
+      <Projects />
     </div>
   )
 }
