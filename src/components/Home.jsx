@@ -1,8 +1,6 @@
 import Intro from './Intro'
 import Navbar from './Navbar'
 import Projects from './Projects'
-import Skills from './Skills'
-import ScatterForcefields from '../img/scattered-forcefields.svg'
 
 function Home() {
   return (
@@ -13,7 +11,6 @@ function Home() {
     >
       <Navbar />
       <Intro />
-      <Skills />
       <Projects />
     </div>
   )

@@ -8,7 +8,7 @@ function Projects() {
           <h1 className='mb-5 text-5xl font-bold text-center mb-12'>
             Projects
           </h1>
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-4 '>
+          <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 '>
             <Card
               title='Quote Generator'
               description='HTML,CSS,Javascript used. Fetch random quotes from the api and displays it to users.'
@@ -27,6 +27,12 @@ function Projects() {
               description='Tailwind CSS and React JS used. Allows users to search and view other github users.'
               link='https://github-finder-six-rouge.vercel.app/'
               repo='https://github.com/kgcthu-kev/github-finder'
+            />
+            <Card
+              title='Real State App - House Finder'
+              description='Next.js and ChakraUI mainly used. Allows users to choose between buying and renting houses and filter search.'
+              link='https://realtor-real-estate.vercel.app/'
+              repo='https://github.com/kgcthu-kev/nextJS-house-app'
             />
           </div>
         </div>

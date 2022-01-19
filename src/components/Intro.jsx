@@ -1,12 +1,7 @@
-import ScatterForcefields from '../img/scattered-forcefields.svg'
-
 function Intro() {
   return (
-    <div
-      className='hero min-h-screen'
-      style={{ backgroundImage: `url(${ScatterForcefields})` }}
-    >
-      <div className='text-center hero-content'>
+    <div className='hero min-h-screen'>
+      <div className='hero-content'>
         <div className='max-w-md'>
           <h1 className='mb-5 text-5xl font-bold'>Hello there</h1>
 
@@ -18,6 +13,9 @@ function Intro() {
             . I'm a self-taught frontend developer based in Yangon, Myanmar. My
             goal is to create engaging experiences for users, with a fine
             balance of technology and design
+          </p>
+          <p className='mb-4'>
+            My current tech stack is HTML, CSS, Javascript, React.js, Next.js
           </p>
           <button className='btn btn-neutral mr-4'>
             <a href='mailto:kgcthu.kev@gmail.com'>Email Me</a>
