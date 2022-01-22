@@ -5,10 +5,8 @@ function Projects() {
     <div className='hero py-8'>
       <div className='hero-content'>
         <div className='max-w-max'>
-          <h1 className='mb-5 text-5xl font-bold text-center mb-12'>
-            Projects
-          </h1>
-          <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 '>
+          <h1 className='text-5xl font-bold text-center mb-12'>Projects</h1>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             <Card
               title='Quote Generator'
               description='HTML,CSS,Javascript used. Fetch random quotes from the api and displays it to users.'
@@ -33,6 +31,12 @@ function Projects() {
               description='Next.js and ChakraUI mainly used. Allows users to choose between buying and renting houses and filter search.'
               link='https://realtor-real-estate.vercel.app/'
               repo='https://github.com/kgcthu-kev/nextJS-house-app'
+            />
+            <Card
+              title='Hulu Clone'
+              description='Hulu Clone is a Movie app where you can search and filter your favourite genres. Built with Next.js and TailwindCSS'
+              link='https://yokeshin-app.vercel.app/'
+              repo='https://github.com/kgcthu-kev/yokeshin-app'
             />
           </div>
         </div>
