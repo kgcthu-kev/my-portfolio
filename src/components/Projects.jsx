@@ -38,6 +38,12 @@ function Projects() {
               link='https://yokeshin-app.vercel.app/'
               repo='https://github.com/kgcthu-kev/yokeshin-app'
             />
+            <Card
+              title='Fashionify | Clothes Store'
+              description='This is the coding test project that I built within 4 days. I used react.js and bootstrap/react-boostrap for styling of this app. Users can choose their favourite item and add to the list.'
+              link='hhttps://clothes-store-iota.vercel.app/'
+              repo='https://github.com/kgcthu-kev/clothes-store.git'
+            />
           </div>
         </div>
       </div>
